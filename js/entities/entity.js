@@ -12,7 +12,7 @@ class Entity {
         this.scale = new Vector(xScale, yScale)
 
         this.initialSpeed = speed;
-        this.speed = speed;
+        this.speed = speed * 2;
 
         this.canMove = true;
         this.canRotate = true;
